@@ -1,30 +1,36 @@
-# Sergio David Palou
+# TraceOS
 
-Founder building **ApprovalBrief AI / TraceOS** — an evidence-to-decision layer for regulated enterprise approvals.
+**Public architecture surface for regulated evidence-to-decision systems.**
 
-I work on regulated decision workflows where fragmented evidence must become reviewable, traceable, and defensible before a human approval decision.
+TraceOS is the architecture behind **ApprovalBrief AI**, a proof-pack system for regulated approval decisions.
 
-## Current focus
+ApprovalBrief AI helps teams turn fragmented evidence into review-ready proof packs before high-stakes approvals such as payment rollouts, vendor-risk reviews, internal AI tool approvals, and regulated enterprise change gates.
 
-- Approval-readiness proof packs for regulated workflows
-- Payment pilot and rollout approval
-- Vendor / ICT third-party risk approval
-- Internal AI tool approval and AI governance evidence
-- Deterministic gates, provenance, replayability, and human sign-off boundaries
+> AI prepares the proof.  
+> Deterministic gates structure readiness.  
+> Humans approve, condition, or hold.
 
-## What I am building
+```mermaid
+flowchart LR
+    A[Fragmented enterprise evidence] --> B[Proof-pack layer]
+    B --> C[Evidence-to-claim mapping]
+    C --> D[Readiness gates]
+    D --> E{Decision state}
 
-**ApprovalBrief AI** turns fragmented evidence into review-ready proof packs:
-evidence links, decision claims, readiness checks, blockers, conditions, owner routing, reviewer-specific views, rerun history, and human approval boundaries.
+    E -->|Blocked| F[Blockers + named owners]
+    E -->|Conditional| G[Conditions + reviewer notes]
+    E -->|Ready| H[Reviewer-specific proof pack]
 
-**TraceOS** is the broader architecture for portable compliance containers, policy gates, provenance, deterministic validation, and agent governance.
+    F --> I[Rerun after updates]
+    G --> I
+    I --> C
 
-## Build status
+    H --> J[Human approval / hold / condition]
+    J --> K[Traceable decision record]
+```
 
-Most product work is currently in private repositories because the architecture contains proprietary orchestration logic, evidence mappings, and vertical-specific workflow design.
+## Public / private boundary
 
-Public-safe materials will appear here as architecture notes, synthetic examples, validation memos, and non-sensitive product documentation.
+Public repositories contain only public-safe materials: concept notes, synthetic examples, diagrams, and validation framing.
 
-## Current stage
-
-Thesis-backed prototype → design-partner discovery → shadow-mode validation.
+Private repositories contain the product implementation, orchestration logic, evidence mappings, and vertical-specific workflow design.
