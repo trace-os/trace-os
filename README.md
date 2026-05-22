@@ -2,9 +2,9 @@
 
 _Public repository · Private product build active · Prototype / design-partner discovery_
 
-**Architecture surface for regulated evidence-to-decision systems.**
+**Architecture surface for regulated launches and enterprise approval decisions.**
 
-TraceOS is the architecture behind **ApprovalBrief AI**, a proof-pack system for regulated approval decisions.
+TraceOS is the architecture surface behind ApprovalBrief AI, a proofpack system for teams preparing evidence before regulated launches, vendor integrations, AI tool rollouts, and enterprise system changes are approved.
 
 This repository exposes the public architecture surface only. Private orchestration logic, implementation details, evidence mappings, and design-partner workflows are intentionally not public.
 
