@@ -40,12 +40,19 @@ flowchart LR
     J --> K[Traceable decision record]
 ```
 
-### Intellectual Property Notice
+### Public / private boundary 
+
+Public repositories contain only public-safe materials: concept notes, synthetic examples, high-level diagrams, and validation framing. 
+
+Private repositories contain the product implementation, orchestration logic, evidence mappings, and vertical-specific workflow design.
+
+
+
+
+#### IP Notice
 
 TraceOS™, ApprovalBrief AI™, and related vertical names are project and product marks of Sergio David Palou.
 
 © 2026 Sergio David Palou. All rights reserved.
 
 Unless explicitly stated otherwise, this repository is not open-source licensed. The source code, documentation, diagrams, workflows, product concepts, semantic structures, and related materials may not be copied, modified, redistributed, commercialized, or used to create derivative products without prior written permission.
-
-This public repository contains public-safe architecture and demonstration materials only. Private orchestration logic, implementation details, evidence mappings, compliance workflows, and design-partner materials remain reserved.
