@@ -42,9 +42,8 @@ flowchart LR
 
 ### Public / private boundary 
 
-Public repositories contain only public-safe materials: concept notes, synthetic examples, high-level diagrams, and validation framing. 
-
-Private repositories contain the product implementation, orchestration logic, evidence mappings, and vertical-specific workflow design.
+- Public repositories contain only public-safe materials: concept notes, synthetic examples, high-level diagrams, and validation framing. 
+- Private repositories contain the product implementation, orchestration logic, evidence mappings, and vertical-specific workflow design.
 
 
 
