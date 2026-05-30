@@ -47,11 +47,5 @@ flowchart LR
 
 
 
-
-#### IP Notice
-
-TraceOS™, ApprovalBrief AI™, and related vertical names are project and product marks of Sergio David Palou.
-
+---
 © 2026 Sergio David Palou. All rights reserved.
-
-This repository is not open-source licensed. The source code, documentation, diagrams, workflows, product concepts, semantic structures, and related materials may not be copied, modified, redistributed, commercialized, or used to create derivative products without prior written permission.
